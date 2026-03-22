@@ -83,8 +83,8 @@ This provides visibility into active healthcare service delivery.
 If given more time, I would:
 
 * Add more advanced queries (e.g., appointment trends over time)
-* Build a dashboard for visualization (using Power BI or Tableau)
-* Perform data cleaning and validation for higher data quality
+* Build a dashboard for visualization (using Power BI)
+* Perform data validation for higher data quality
 * Optimize queries for performance on larger datasets
 * Introduce indexing for faster data retrieval
 
