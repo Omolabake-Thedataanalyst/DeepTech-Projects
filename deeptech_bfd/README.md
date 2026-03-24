@@ -13,9 +13,9 @@ Through structured data cleaning techniques, the dataset was transformed into a 
 Business funding datasets often suffer from incomplete and inconsistent records, which can affect investment analysis and decision-making.
 
 In this dataset:
-	•	Key columns had over 50–75% missing values
-	•	Some fields contained inconsistent or empty entries ([], NaN)
-	•	Irrelevant columns added noise to the dataset
+* Key columns had over 50–75% missing values
+* Some fields contained inconsistent or empty entries ([], NaN)
+* Irrelevant columns added noise to the dataset
 
 This project solves the problem by improving data reliability and usability.
 
@@ -28,16 +28,13 @@ This project solves the problem by improving data reliability and usability.
 	•	Calculated percentage of missing values
 
 ### Data Cleaning
-	•	Dropped irrelevant columns:
-	•	Effective date
-	•	Financing Type
-	•	Found At
-	•	Handled missing values:
-	•	Filled categorical columns with “Not Provided”
-	•	Financing Type Normalized
-	•	Investors
-	•	Replaced empty lists ([]) in Categories with "Not Provided"
-	•	Filled Investors Count with 0
+	•	Dropped irrelevant columns: 'Effective date', 'Financing Type', 'Found At'
+Handled missing values:
+* Filled categorical columns with “Not Provided”
+* Financing Type Normalized
+* Investors
+Replaced empty lists ([]) in Categories with "Not Provided"
+Filled Investors Count with 0
 
 ### Data Validation
 	•	Checked for duplicate rows (none found)
