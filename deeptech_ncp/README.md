@@ -72,19 +72,10 @@ The dataset is now fully prepared for:
 * Create dashboards (Power BI / Plotly)
 * Deploy a simple prediction app
 
+
 ## Tools & Technologies Used
 * Python
 * Pandas
 * NumPy
 * VS Code
-
-## Project Structure
-
-Nigerian-Car-Prices-Data-Cleaning/
-│
-├── Nigerian_Car_Prices.csv
-├── cleaned_Nigerian_Car_Prices.csv
-├── data_cleaning_script.py
-└── README.md
-
 
