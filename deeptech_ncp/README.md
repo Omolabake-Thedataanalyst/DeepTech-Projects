@@ -1,25 +1,26 @@
 # 🚗 Nigerian Car Prices Data Cleaning Task (Python)
 
 
-# Executive Summary
+## Executive Summary
 
 This project focuses on cleaning and preparing a Nigerian car prices dataset using Python. The objective was to improve data quality by handling missing values, removing inconsistencies, and ensuring the dataset is analysis-ready.
 
 After cleaning, the dataset is now structured, reliable, and suitable for data analysis, visualization, and predictive modeling.
 
 
-# Business Problem
+## Business Problem
 
 Raw datasets often contain missing values, inconsistencies, and redundant information that can lead to inaccurate insights and poor decision-making. In the context of car pricing, unreliable data can affect pricing strategies, market analysis, and customer decision processes.
 
 This project addresses the challenge of transforming messy car listing data into a reliable dataset for analysis.
 
 
-# Methodology
+## Methodology
 
-## Data Exploration
-	•	Viewed dataset structure using .head(), .tail(), .info()
-	•	Assessed missing values and their percentages
+### Data Exploration
+* Viewed dataset structure using:
+• .head(), .tail(), .info()
+* Assessed missing values and their percentages
 
 ## Data Cleaning
 	•	Dropped irrelevant columns (Build, Unnamed: 0)
