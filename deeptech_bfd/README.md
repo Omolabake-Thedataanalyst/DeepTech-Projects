@@ -30,9 +30,9 @@ This project solves the problem by improving data reliability and usability.
 ### Data Cleaning
 	•	Dropped irrelevant columns: 'Effective date', 'Financing Type', 'Found At'
 Handled missing values:
-* Filled 'Financing Type Normalized', 'Investors' columns with “Not Provided”
-* Replaced empty lists ([]) in Categories with "Not Provided"
-* Filled Investors Count with 0
+	•	Filled 'Financing Type Normalized', 'Investors' columns with “Not Provided”
+	•	Replaced empty lists ([]) in Categories with "Not Provided"
+	•	Filled Investors Count with 0
 
 ### Data Validation
 	•	Checked for duplicate rows (none found)
