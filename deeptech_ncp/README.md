@@ -18,56 +18,73 @@ This project addresses the challenge of transforming messy car listing data into
 ## Methodology
 
 ### Data Exploration
-• Viewed dataset structure using: .head(), .tail(), .info()
-* Assessed missing values and their percentages
+	•	Viewed dataset structure using .head(), .tail(), .info()
+	•	Assessed missing values and their percentages
 
-## Data Cleaning
+### Data Cleaning
 	•	Dropped irrelevant columns (Build, Unnamed: 0)
 	•	Handled missing values:
 	•	Mode → Fuel, Condition, Transmission
 	•	Median → Year of manufacture
 	•	Mean → Engine Size, Mileage
 
-## Data Validation
-	•	Checked unique values for consistency
-	•	Identified and removed duplicate records
+### Data Validation
+* Checked unique values for consistency
+* Identified and removed duplicate records
 
-## Data Export
+### Data Export
 	•	Saved cleaned dataset as:
 cleaned_Nigerian_Car_Prices.csv
 
 
-# Skills Demonstrated
-	•	Data Cleaning & Preprocessing
-	•	Exploratory Data Analysis (EDA)
-	•	Handling Missing Data (Mean, Median, Mode)
-	•	Data Validation Techniques
-	•	Python Scripting
-	•	File Handling with pathlib
-	•	Use of pandas & numpy
+## Skills Demonstrated
+* Data Cleaning & Preprocessing
+* Exploratory Data Analysis (EDA)
+* Handling Missing Data (Mean, Median, Mode)
+* Data Validation Techniques
+* Python Scripting
+* File Handling with pathlib
+* Use of pandas & numpy
 
 
-# Results & Insights
-	•	All missing values successfully handled
-	•	Irrelevant columns removed
-	•	Duplicate rows eliminated
-	•	Dataset standardized and cleaned
+## Results & Insights
+* All missing values successfully handled
+* Irrelevant columns removed
+* Duplicate rows eliminated
+* Dataset standardized and cleaned
 
 The dataset is now fully prepared for:
-	•	Data analysis
-	•	Visualization
-	•	Machine learning models
+* Data analysis
+* Visualization
 
 
-# Business Recommendations
-	•	Implement data validation at the point of data entry
-	•	Standardize data collection formats
-	•	Perform routine data cleaning before analysis
-	•	Leverage cleaned data for pricing strategies and insights
+## Business Recommendations
+* Implement data validation at the point of data entry
+* Standardize data collection formats
+* Perform routine data cleaning before analysis
+* Leverage cleaned data for pricing strategies and insights
 
 
-# Next Steps
-	•	Conduct detailed Exploratory Data Analysis (EDA)
-	•	Build a car price prediction model
-	•	Create dashboards (Power BI / Plotly)
-	•	Deploy a simple prediction app
+## Next Steps
+* Conduct detailed Exploratory Data Analysis (EDA)
+* Perform data transformation and standardization for machine learning
+* Build a car price prediction model
+* Create dashboards (Power BI / Plotly)
+* Deploy a simple prediction app
+
+## Tools & Technologies Used
+* Python
+* Pandas
+* NumPy
+* VS Code
+
+## Project Structure
+
+Nigerian-Car-Prices-Data-Cleaning/
+│
+├── Nigerian_Car_Prices.csv
+├── cleaned_Nigerian_Car_Prices.csv
+├── data_cleaning_script.py
+└── README.md
+
+
