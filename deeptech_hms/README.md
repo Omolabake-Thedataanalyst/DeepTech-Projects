@@ -1,4 +1,4 @@
-# DeepTech HMS SQL Assignment
+# DeepTech HMS SQL Task
 
 ## Title
 
