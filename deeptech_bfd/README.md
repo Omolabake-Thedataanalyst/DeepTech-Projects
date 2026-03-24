@@ -30,7 +30,7 @@ This project solves the problem by improving data reliability and usability.
 ### Data Cleaning
 	•	Dropped irrelevant columns: 'Effective date', 'Financing Type', 'Found At'
 Handled missing values:
-* Filled 'categorical', 'Financing Type Normalized', 'Investors' columns with “Not Provided”
+* Filled 'Financing Type Normalized', 'Investors' columns with “Not Provided”
 * Replaced empty lists ([]) in Categories with "Not Provided"
 * Filled Investors Count with 0
 
