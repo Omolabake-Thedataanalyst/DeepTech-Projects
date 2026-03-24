@@ -94,7 +94,3 @@ If given more time, I would:
 
 * MySQL / phpMyAdmin
 * SQL
-
----
-
-*This project is part of my ongoing journey in SQL and data analysis. Feedback is welcome!*
