@@ -18,8 +18,7 @@ This project addresses the challenge of transforming messy car listing data into
 ## Methodology
 
 ### Data Exploration
-* Viewed dataset structure using:
-• .head(), .tail(), .info()
+• Viewed dataset structure using: .head(), .tail(), .info()
 * Assessed missing values and their percentages
 
 ## Data Cleaning
