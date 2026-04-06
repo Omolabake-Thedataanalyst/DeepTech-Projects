@@ -14,5 +14,6 @@ GROUP BY Gender;
 SELECT a.AppointmentID, a.PatientID, a.Date, a.Status, d.DoctorID, d.Name, d.Speciality, d.State
 FROM appointment_table a 
 JOIN doctor_table d 
+ON a.DoctorID = d.DoctorID
 WHERE a.Status = 'Confirmed'
 GROUP BY a.AppointmentID, a.PatientID, d.DoctorID;
